@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گوهربین | جواهرات خاص و منحصر به فرد</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazir:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- هدر / نویگیشن بار -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <h1>گوهربین</h1>
+                    <span>جواهرات خاص</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">خانه</a></li>
+                        <li><a href="shop.html">محصولات</a></li>
+                        <li><a href="about.html">درباره ما</a></li>
+                        <li><a href="contact.html">تماس با ما</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <a href="cart.html" class="cart-icon">
+                        🛒 <span id="cart-count">0</span>
+                    </a>
+                    <button id="menu-toggle" class="mobile-menu-btn">☰</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- بخش هیرو (Hero) - اسلایدر -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h2>جواهرات با طلای رزگلد</h2>
+                    <p>مد سال ۲۰۲۵ - طراحی‌های مدرن و منحصر به فرد</p>
+                    <a href="shop.html" class="btn-primary">مشاهده محصولات</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>سرویس الماس برلیان</h2>
+                    <p>با کیفیت‌ترین الماس‌های طبیعی</p>
+                    <a href="shop.html" class="btn-primary">خرید ویژه</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>حلقه‌های نامزدی</h2>
+                    <p>طراحی اختصاصی برای روزهای خاص</p>
+                    <a href="shop.html" class="btn-primary">سفارش دهید</a>
+                </div>
+            </div>
+        </div>
+        <button class="slider-prev">❮</button>
+        <button class="slider-next">❯</button>
+    </section>
+
+    <!-- دسته‌بندی محصولات -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">دسته‌بندی محصولات</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="images/categories/ring.jpg" alt="انگشتر">
+                    <h3>انگشتر و حلقه</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/categories/necklace.jpg" alt="گردنبند">
+                    <h3>گردنبند و آویز</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/categories/earring.jpg" alt="گوشواره">
+                    <h3>گوشواره</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/categories/bracelet.jpg" alt="دستبند">
+                    <h3>دستبند</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- محصولات ویژه -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">جدیدترین محصولات</h2>
+            <div class="products-grid" id="featured-products">
+                <!-- محصولات توسط جاوااسکریپت از API دریافت می‌شوند -->
+            </div>
+        </div>
+    </section>
+
+    <!-- بنر تبلیغاتی -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>تخفیف ویژه روز زن</h2>
+                <p>به مدت محدود - ۲۰٪ تخفیف تمام محصولات</p>
+                <a href="shop.html" class="btn-light">خرید کنید</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>درباره گوهربین</h4>
+                    <p>گالری جواهرات گوهربین با بیش از ۲۰ سال تجربه در طراحی و ساخت جواهرات خاص و منحصر به فرد</p>
+                </div>
+                <div class="footer-col">
+                    <h4>دسترسی سریع</h4>
+                    <ul>
+                        <li><a href="about.html">درباره ما</a></li>
+                        <li><a href="contact.html">تماس با ما</a></li>
+                        <li><a href="#">راهنمای خرید</a></li>
+                        <li><a href="#">شرایط بازگشت کالا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>تماس با ما</h4>
+                    <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+                    <p>ایمیل: info@goharbin.com</p>
+                    <p>آدرس: تهران، خیابان ولیعصر، پلاک ۱۲۳</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ۲۰۲۵ تمامی حقوق برای گوهربین محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
